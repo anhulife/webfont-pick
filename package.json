@@ -1,0 +1,31 @@
+{
+  "name": "webfont-pick",
+  "version": "0.0.1",
+  "description": "webfont-pick 是一个生成 Webfont 的工具，它可以从字体文件中提取指定文字的信息并生成 Webfont 文件",
+  "license": "MIT",
+  "repository": "anhulife/webfont-pick",
+  "main": "lib/webfont-pick.js",
+  "bin": {
+    "webfont-pick": "bin/webfont-pick.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "lodash": "^4.0.1",
+    "mkdirp": "^0.5.1",
+    "opentype.js": "^0.6.0",
+    "string_decoder": "^0.10.31",
+    "svg2ttf": "^2.1.1",
+    "svgicons2svgfont": "^3.2.1",
+    "ttf2eot": "^1.3.0",
+    "ttf2woff": "^1.3.0",
+    "yargs": "^3.32.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^4.0.0",
+    "mocha": "^2.4.2"
+  }
+}

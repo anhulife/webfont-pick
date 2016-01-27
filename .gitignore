@@ -1,0 +1,4 @@
+.DS_Store
+.idea
+test/output
+node_modules
