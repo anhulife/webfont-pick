@@ -20,7 +20,7 @@ webfont-pick --font=/Library/Fonts/YuppySC-Regular.otf --text="你好，世界�
 #### options.font
 Type: `String` Default: `undefined`
 
-源字体文件路径，系统安装的字体一般会出现在：`Windows`的`C:\\WINDOWS\\fonts`，`Mac`的`/Library/Fonts`
+源字体文件路径，系统安装的字体一般会出现在：`Windows`的`C:\WINDOWS\fonts`，`Mac`的`/Library/Fonts`
 
 #### opitons.text
 Type: `String` Default: `undefined`
